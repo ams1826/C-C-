@@ -38,23 +38,26 @@ int missno(int a[], int n){
         start=2;
         ex2=n;
     }
-
+//loop 1 to calculate XOR of elements in array
     for(int i=start; i<n; i++){
-        cout<<x1<<" ";
+        // cout<<x1<<" ";
         x1=x1^a[i];
-        cout<<x1<<endl;
+        // cout<<x1<<endl;
     }
-    cout<<"\n\n";
+
+    // cout<<"\n\n";
+
+//loop 2 to calculate XOR for all elements that must be present in array
     for(int i=2; i<=ex2; i++){
-        cout<<x2<<" ";
+        // cout<<x2<<" ";
         x2=x2^i;
-        cout<<x2<<endl;
+        // cout<<x2<<endl;
     }
 
     return (x1^x2);
 }
 int main(){
-    int arr[]={2,3,4,5};
+    int arr[]={0,1,2,3,4,6};
     int N=sizeof(arr)/sizeof(arr[0]);
     int miss = missno(arr,N);
     cout<<"\n\n";
