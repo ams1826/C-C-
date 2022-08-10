@@ -61,6 +61,6 @@ int main(){
     int N=sizeof(arr)/sizeof(arr[0]);
     int miss = missno(arr,N);
     cout<<"\n\n";
-    cout<<miss;
+    cout<<"missing number is "<<miss;
     return 0;
 }
