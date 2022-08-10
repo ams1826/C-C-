@@ -1,4 +1,4 @@
-//finding missing number using XOR
+/*finding missing number using XOR
 
 take array
 check first element is zero operator not
@@ -23,7 +23,7 @@ if not zero:
         now there is not zero in the array it means
             if the nummber of array elements are 'y'
             then we have to run loop 2 to 'y+1' because this time there is not any extra or null value whose space will be counted
-
+*/
 
 
 #include<bits/stdc++.h>
