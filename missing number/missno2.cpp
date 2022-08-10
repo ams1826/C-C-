@@ -1,4 +1,4 @@
-/*finding missing number using XOR
+/*                              finding missing number using XOR
 
 take array
 check first element is zero operator not
