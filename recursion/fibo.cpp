@@ -1,4 +1,4 @@
-//printing fibonacci series
+//printing fibonacci series using recursion
 
 #include<iostream>
 using namespace std;
@@ -14,10 +14,9 @@ int fibo(int n){
 
 int main(){
     int x = 5 ,i=0;
-    cout<<fibo(x);
-    // while(i < x) {
-    //   cout <<" "<<fibo(i);
-    //   i++;
-    // }
+    while(i < x) {
+      cout <<" "<<fibo(i);
+      i++;
+    }
     return 0;
 }
