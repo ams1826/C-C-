@@ -1,3 +1,5 @@
+//sum of n terms using recursion
+
 #include<iostream>
 using namespace std;
 
