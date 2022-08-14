@@ -4,11 +4,11 @@
 using namespace std;
 
 int sum(int n){
-    if(n==1)
-    return 1;
+    if((n==1) || (n<=0))
+    return n;
 
-    else if(n<=0)
-    return 0;
+    // else if(n<=0)
+    // return 0;
 
     else
     return n+sum(n-1);
