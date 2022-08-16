@@ -1,10 +1,10 @@
-//recursive
+//recursive search
 #include<bits/stdc++.h>
 using namespace std;
 
 int bs(int arr[], int l, int r, int k){
 
-    if(r>=1){
+    if(r>=l){
         int mid = l+(r-l)/2;
 
         if(arr[mid]==k)
@@ -21,7 +21,7 @@ int bs(int arr[], int l, int r, int k){
 
 int main(void){
     int arr[] = {2,3,4,10,40};
-    int k = 20;
+    int k = 40;
     int n = sizeof(arr)/sizeof(arr[0]);
 
     int result = bs(arr, 0, n-1, k);

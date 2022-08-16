@@ -4,7 +4,7 @@ using namespace std;
 
 int bs(int arr[], int l, int r, int k){
 
-    if(r>=1){
+    if(r>=l){
         int mid = l+(r-l)/2;
 
         if(arr[mid]==k)
