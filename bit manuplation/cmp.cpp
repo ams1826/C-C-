@@ -6,7 +6,7 @@ bool oppositesign(int x, int y){
 }
 
 int main(){
-    int x=100 , y=-100;
+    int x=100 , y=10;
     if(oppositesign(x,y)==true)
     cout<<"signs are oppositesign ";
     else
