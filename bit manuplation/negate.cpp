@@ -6,7 +6,7 @@ int main(){
     cin>>num;
     cout<<"enter the bit num ";
     cin>>bit;
-    temp=1<<(bit-1);
+    temp=(bit-1)<<1;
     num = num^temp;
     cout<<"value after setting bit "<<num;
     return 0;
