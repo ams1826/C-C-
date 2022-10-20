@@ -16,11 +16,11 @@ int main(){
 // no 14 = 1 1 1 0
 // pos 2 = 0 0 1 0
 //              -1
-//         0 0 0 1 --> left shift
+//         0 0 0 1 --> now perform left shift on this
 
-//         0 0 1 0
+//         0 0 1 0 --> we will get this
 
 //         1 1 1 0
-//         0 0 1 0
+//         0 0 1 0   using XOR [0^0=0]  , [1^0=1] , [1^1=0] , [0^1=1]
 //        """"""""""
 //         1 1 0 0 --> 12

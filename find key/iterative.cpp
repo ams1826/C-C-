@@ -32,7 +32,7 @@ int main(void)
     
     int result= bs(arr, 0, n-1, x);
     (result==-1)
-    ? cout<<"element not exists"
+    ? cout<<endl<<"\t \t element not exists"<<endl<<endl
     : cout<<"element found at " <<result;
     
     return 0;

@@ -4,7 +4,6 @@
 using namespace std;
 
 int fibo(int n){
-    // cout<<n<<endl;
     if((n==1) || (n==0))
     return n;
 
@@ -14,6 +13,7 @@ int fibo(int n){
 
 int main(){
     int x = 5 ,i=0;
+    cout<<"The series is  ";
     while(i < x) {
       cout <<" "<<fibo(i);
       i++;

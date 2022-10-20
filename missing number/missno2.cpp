@@ -60,7 +60,10 @@ int main(){
     int arr[]={0,1,2,3,4,6};
     int N=sizeof(arr)/sizeof(arr[0]);
     int miss = missno(arr,N);
-    cout<<"\n\n";
-    cout<<"missing number is "<<miss;
+    cout<<"The array is { ";
+    for(int i=0; i<N; i++)
+    cout<<arr[i]<<"  ";
+    cout<<"}";
+    cout<<"The missimg numner in araay is "<<miss;
     return 0;
 }
