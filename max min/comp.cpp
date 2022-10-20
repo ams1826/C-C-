@@ -2,7 +2,6 @@
 
 #include<iostream>
 using namespace std;
-
 struct Pair
 {
     int min;
@@ -61,7 +60,9 @@ int main(){
     int arr[]={1000,11,3000,445,1,330};
     int sizee=6;
     struct Pair minmax = getminmax(arr , sizee);
-    cout<<"min ele "<<minmax.min<<endl;
-    cout<<"max ele "<<minmax.max;
+    for(int i=0; i<sizee; i++)
+    cout<<arr[i]<<"  ";
+    cout<<"minimum element in array is "<<minmax.min<<endl;
+    cout<<"maximum element in array is "<<minmax.max;
     return 0;
 }
