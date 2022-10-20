@@ -20,6 +20,10 @@ int main(){
     int arr[]={1,2,3,5};
     int N=sizeof(arr)/sizeof(arr[0]);
     int miss = missno(arr,N);
-    cout<<miss;
+    cout<<endl<<"\t \t The array is { ";
+    for(int i=0; i<N; i++)
+    cout<<arr[i]<<"  ";
+    cout<<"}";
+    cout<<endl<<"\t \t The missimg numner in araay is "<<miss<<endl<<endl;
     return 0;
 }
